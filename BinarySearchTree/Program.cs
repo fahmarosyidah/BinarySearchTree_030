@@ -32,7 +32,7 @@ namespace BinarySearchTree
             //This function searchs the currentNode of the specified Node as null as the current Node of its parents
             currentNode = ROOT;
             parent = null;
-            while((currentNode != null) && (currentNode.info != element))
+            while ((currentNode != null) && (currentNode.info != element))
             {
                 parent = currentNode;
                 if (string.Compare(element, currentNode.info) < 0)
@@ -116,6 +116,7 @@ namespace BinarySearchTree
 
         static void Main(string[] args)
         {
+            Program x = new Program();
             
         }
     }
